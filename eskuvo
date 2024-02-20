@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LiliDani esküvő</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            background-color: rgb(143, 150, 114);
+            
+        }
+
+        .image-container {
+            flex: 1 0 50%; /* Az oszlopok szélességének beállítása, így két kép egymás mellett helyezkedik el */
+            box-sizing: border-box;
+            overflow: hidden;
+        
+        }
+
+        .image-container.full-width {
+            flex-basis: 100%;
+            
+        
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            
+        
+        }
+    </style>
+</head>
+<body>
+
+    <div class="image-container full-width">
+        <img src="Lili.png" alt="Első Kép">
+    </div>
+
+<div class="image-container full-width">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfW15VuueUah5gwcaBHzccBWXVW1KnqsCF9OilsmugfrbMh7g/viewform?pli=1"><img src="Lili (1).png" alt=""></a>
+</div>
+
+<div class="image-container full-width">
+    <img src="Lili (2).png" alt="Második Kép">
+</div>
+
+<div class="image-container">
+    <img src="Lili (5).png" alt="Harmadik Kép">
+</div>
+
+<div class="image-container">
+    <img src="Lili (3).png" alt="Negyedik Kép">
+</div>
+
+<div class="image-container full-width">
+    <img src="Lili (4).png" alt="Ötödik Kép">
+</div>
+
+
+
+</body>
+</html>
